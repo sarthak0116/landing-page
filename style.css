@@ -1,0 +1,184 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+a{
+    text-decoration: none;
+    color: #898989;
+}
+.header{
+    padding: 20px 80px;
+    display: flex;
+    justify-content: space-between;
+    background: #1f2937;
+    align-items: center;
+
+}
+.links{
+    display: flex;
+    gap: 24px;
+}
+
+.logo{
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+
+
+
+.hero{
+    display: flex;
+    background: #1f2937;
+    padding: 100px 80px;
+    gap: 40px;
+    justify-content: space-between;
+    align-items: center; 
+}
+
+
+.hero > img{
+    max-width: 600px;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 4px
+}
+
+
+.content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 500px;
+    gap: 12px;
+    align-items: flex-start;
+}
+.content > h1{
+    font-size: 48px;
+    color: #f9faf8;
+    font-weight: 900;
+}
+.content > p{
+    font-size: 18px;
+    color: #898989;
+}
+
+button{
+    background: #3882f6;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+h2{
+    text-align: center;
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-top: 40px;
+}
+
+.information{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.imgs {
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 40px 80px;
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.info > img{
+    width: 200px;
+    height: 200px;
+    border-radius: 4px;
+}
+.info > p{
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    color: #898989;
+}   
+
+
+.quote-section{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background: #e5e7eb;
+    height: 400px;
+}
+.quote{
+    color: #1f2937;
+    font-size: 36px;
+    font-weight: 300;
+    width: 800px;
+}
+.author{
+    width: 800px;
+    text-align: right;
+    font-weight: 700;
+}
+
+
+.signup-section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 400px;
+}
+
+.card{
+    background: #3882f6;
+    width: 700px;
+
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 100px;
+    border-radius: 5px;
+    align-items: center;
+    gap: 50px;
+}
+
+.signup-text>h1{
+    color: #e5e7eb;
+}
+.signup-text>p{
+    color: #d6d6d6;
+}
+
+.card > button{
+    outline: 2px solid #e5e7eb;
+    padding: 8px 20px;
+    white-space: nowrap;
+
+
+}
+
+footer{
+    height: 80px;
+    background: #1f2937;
+    display: flex;
+    color: #d6d6d6;
+    justify-content: center;
+    align-items: center;
+}
